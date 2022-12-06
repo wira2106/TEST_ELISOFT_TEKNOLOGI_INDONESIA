@@ -179,7 +179,7 @@ $dashboard = true;
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row" id="row_pass">
+                                    <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label for="password">Password</label>

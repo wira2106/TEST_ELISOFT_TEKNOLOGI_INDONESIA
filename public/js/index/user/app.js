@@ -205,7 +205,7 @@ edit = (id) =>{
         data.data.jenis_kelamin? $('#laki').prop("checked", true):$('#perempuan').prop("checked", true);
         $('textarea[name="alamat"]').html(data.data.alamat);
         $('#form_data').attr('action',link+'/api/user/update/'+id);
-        $('#row_pass').hide();
+        // $('#row_pass').hide();
     });
 }
 
@@ -214,7 +214,7 @@ tambah = (id) =>{
     set_image_default();
     $('.modal_title_user').html('Tambah User');
     $('#form_data').attr('action',link+'/api/user/create');
-    $('#row_pass').show();
+    // $('#row_pass').show();
     // check_conf_pass ();
 }
 
